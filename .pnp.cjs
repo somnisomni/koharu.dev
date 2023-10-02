@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.50.0"],\
             ["eslint-plugin-vue", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:9.17.0"],\
             ["npm-run-all2", "npm:6.0.6"],\
+            ["scss", "npm:0.2.4"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:4.4.9"],\
             ["vue", "npm:3.3.4"],\
@@ -2390,6 +2391,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.50.0"],\
             ["eslint-plugin-vue", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:9.17.0"],\
             ["npm-run-all2", "npm:6.0.6"],\
+            ["scss", "npm:0.2.4"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:4.4.9"],\
             ["vue", "npm:3.3.4"],\
@@ -2784,6 +2786,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["ometa", [\
+        ["npm:0.2.2", {\
+          "packageLocation": "./.yarn/unplugged/ometa-npm-0.2.2-a91ea6ee26/node_modules/ometa/",\
+          "packageDependencies": [\
+            ["ometa", "npm:0.2.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["once", [\
         ["npm:1.4.0", {\
           "packageLocation": "./.yarn/cache/once-npm-1.4.0-ccf03ef07a-cd0a885013.zip/node_modules/once/",\
@@ -3094,6 +3105,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/safer-buffer-npm-2.1.2-8d5c0b705e-cab8f25ae6.zip/node_modules/safer-buffer/",\
           "packageDependencies": [\
             ["safer-buffer", "npm:2.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["scss", [\
+        ["npm:0.2.4", {\
+          "packageLocation": "./.yarn/cache/scss-npm-0.2.4-97993b1bc4-e2223e8982.zip/node_modules/scss/",\
+          "packageDependencies": [\
+            ["scss", "npm:0.2.4"],\
+            ["ometa", "npm:0.2.2"]\
           ],\
           "linkType": "HARD"\
         }]\
