@@ -1989,6 +1989,7 @@ __metadata:
     eslint-plugin-vue: ^9.17.0
     npm-run-all2: ^6.0.6
     sass: ^1.68.0
+    the-new-css-reset: ^1.11.0
     typescript: ~5.2.2
     vite: ^4.4.9
     vue: ^3.3.4
@@ -2894,6 +2895,13 @@ __metadata:
   version: 0.2.0
   resolution: "text-table@npm:0.2.0"
   checksum: b6937a38c80c7f84d9c11dd75e49d5c44f71d95e810a3250bd1f1797fc7117c57698204adf676b71497acc205d769d65c16ae8fa10afad832ae1322630aef10a
+  languageName: node
+  linkType: hard
+
+"the-new-css-reset@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "the-new-css-reset@npm:1.11.0"
+  checksum: d2ff6633c8d7739f7a68a14711d88c1a496ff55cc6f8eb32a0e9642d3cbf987114f4f9b3014620483f6bc1103628b9046c9ca43e356335d7289f9a2734ae88e0
   languageName: node
   linkType: hard
 

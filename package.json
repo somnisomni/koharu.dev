@@ -12,6 +12,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "the-new-css-reset": "^1.11.0",
     "vue": "^3.3.4",
     "vue-facing-decorator": "^3.0.3",
     "vue-router": "^4.2.5"

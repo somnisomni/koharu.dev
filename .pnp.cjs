@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-vue", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:9.17.0"],\
             ["npm-run-all2", "npm:6.0.6"],\
             ["sass", "npm:1.68.0"],\
+            ["the-new-css-reset", "npm:1.11.0"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:4.4.9"],\
             ["vue", "npm:3.3.4"],\
@@ -2448,6 +2449,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-vue", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:9.17.0"],\
             ["npm-run-all2", "npm:6.0.6"],\
             ["sass", "npm:1.68.0"],\
+            ["the-new-css-reset", "npm:1.11.0"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:4.4.9"],\
             ["vue", "npm:3.3.4"],\
@@ -3447,6 +3449,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/text-table-npm-0.2.0-d92a778b59-b6937a38c8.zip/node_modules/text-table/",\
           "packageDependencies": [\
             ["text-table", "npm:0.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["the-new-css-reset", [\
+        ["npm:1.11.0", {\
+          "packageLocation": "./.yarn/cache/the-new-css-reset-npm-1.11.0-a7a1ebde5e-d2ff6633c8.zip/node_modules/the-new-css-reset/",\
+          "packageDependencies": [\
+            ["the-new-css-reset", "npm:1.11.0"]\
           ],\
           "linkType": "HARD"\
         }]\
