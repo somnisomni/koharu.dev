@@ -6,7 +6,7 @@
     <p><code>koharu.dev</code> is owned and operated by <a href="https://somni.one" target="_blank">somni</a>, a developer and a Blue Archive player.</p>
     <br />
     <p class="light"><strong>NOTE: </strong>This site is fan-made non-profit site. NOT an official site of Blue Archive.</p>
-    <p class="light">None of the hosted sites/applications using this domain are NOT affiliated with NEXON Korea Corp., NEXON Games Co., Ltd., Yostar, Inc., or other related companies.</p>
+    <p class="light">NONE of the hosted sites/applications using this domain are affiliated with NEXON Korea Corp., NEXON Games Co., Ltd., Yostar, Inc., or other related companies.</p>
     <br />
     <p class="light">Some assets of this site may not copyrighted to site owner.</p>
 
