@@ -1939,6 +1939,7 @@ __metadata:
     typescript: ~5.2.2
     vite: ^4.4.9
     vue: ^3.3.4
+    vue-facing-decorator: ^3.0.3
     vue-router: ^4.2.5
     vue-tsc: ^1.8.15
   languageName: unknown
@@ -2987,6 +2988,15 @@ __metadata:
   peerDependencies:
     eslint: ">=6.0.0"
   checksum: 6d1476b45fcc5b456a1e5c0f33ec695cf1d392ca6113250d5e3441e6cf3b2a0ec28a9455699363641dfb7c48358f215db07856c98385a31ace9bc58196f4156e
+  languageName: node
+  linkType: hard
+
+"vue-facing-decorator@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "vue-facing-decorator@npm:3.0.3"
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: 9534d759bb66e50467a0c1124abeab655b8440906fd28a1869b08a03fcb70c36680bc1f6095a67ba85438ea09db7782b9d7dadc547f92fca6ad479a124ce59ff
   languageName: node
   linkType: hard
 

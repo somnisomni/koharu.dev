@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:4.4.9"],\
             ["vue", "npm:3.3.4"],\
+            ["vue-facing-decorator", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:3.0.3"],\
             ["vue-router", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:4.2.5"],\
             ["vue-tsc", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:1.8.15"]\
           ],\
@@ -2392,6 +2393,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:4.4.9"],\
             ["vue", "npm:3.3.4"],\
+            ["vue-facing-decorator", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:3.0.3"],\
             ["vue-router", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:4.2.5"],\
             ["vue-tsc", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:1.8.15"]\
           ],\
@@ -3593,6 +3595,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/eslint",\
             "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["vue-facing-decorator", [\
+        ["npm:3.0.3", {\
+          "packageLocation": "./.yarn/cache/vue-facing-decorator-npm-3.0.3-8f634dd0d4-9534d759bb.zip/node_modules/vue-facing-decorator/",\
+          "packageDependencies": [\
+            ["vue-facing-decorator", "npm:3.0.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:3.0.3", {\
+          "packageLocation": "./.yarn/__virtual__/vue-facing-decorator-virtual-8476490c2d/0/cache/vue-facing-decorator-npm-3.0.3-8f634dd0d4-9534d759bb.zip/node_modules/vue-facing-decorator/",\
+          "packageDependencies": [\
+            ["vue-facing-decorator", "virtual:a67489ed83b9aaaa8a0619f1ea39ad18ffd1016df2fe347d2e5ad8de6cd6166073fd207d5a38e22ee48af145b0c64d39cdfb85a69244773ff1ddf8836d8feaf3#npm:3.0.3"],\
+            ["@types/vue", null],\
+            ["vue", "npm:3.3.4"]\
+          ],\
+          "packagePeers": [\
+            "@types/vue",\
+            "vue"\
           ],\
           "linkType": "HARD"\
         }]\
